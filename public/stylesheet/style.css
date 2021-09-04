@@ -1,4 +1,11 @@
 body {
-    background-color: bisque;
+    background-color: blue;
     font-size: 50px;
+    margin: 0
+}
+.Footer {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
