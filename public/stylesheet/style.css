@@ -1,11 +1,50 @@
 body {
-    background-color: blue;
-    font-size: 50px;
+    background-color:aquamarine;
     margin: 0
 }
-.Footer {
-    background-color: brown;
+nav {
+    background-color:aqua;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: bisque;
+}
+
+footer {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+    background-color: bisque;
+}
+
+footer div{
+    margin: 0;
+}
+
+footer div p{
+    margin: 5px;
+}
+
+
+
+.robert {
+    width: 300px;
+    height: 300px; 
 }
