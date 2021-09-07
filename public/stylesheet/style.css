@@ -23,6 +23,17 @@ nav {
     background-color: bisque;
 }
 
+.text{
+    text-align: center;
+    margin: 20px;
+    border: 1px black solid;
+    background-color: blanchedalmond;
+}
+
+.text p{
+    margin: 10px;
+}
+
 footer {
     border: 1px solid black;
     display: flex;
@@ -42,7 +53,30 @@ footer div p{
     margin: 5px;
 }
 
+.movies-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    text-align: center;   
+    background-color: blanchedalmond;
+}
 
+.movies-list img{
+    width: 200px;
+    height: 200px;
+}
+
+table{
+    border: black solid 1px;
+    margin: 30px;
+}
+
+table th{
+    border:black solid 1px;
+}
+table td {
+    border: black solid 1px;
+}
 
 .robert {
     width: 300px;
